@@ -8,7 +8,7 @@ import Services from './components/Servicepage/Services.jsx';
 import Programs from './components/Programs/Programs.jsx';
 import Contactus from './components/Contactus/Contactus.jsx';
 
-const router = createBrowserRouter([
+const router = new createBrowserRouter([
   {
     path : "/",
     element : <App/>
